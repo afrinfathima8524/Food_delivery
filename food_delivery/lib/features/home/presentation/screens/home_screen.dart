@@ -99,86 +99,116 @@ class HomePage extends StatelessWidget {
                     children: [
                       Padding(
                         padding: const EdgeInsets.only(left: 20, top: 10),
-                        child: Container(
-                          height: 60,
-                          width: 60,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(15),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://www.onceuponachef.com/images/2023/08/Beef-Tacos.jpg'),
-                                fit: BoxFit.fill),
-                          ),
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 60,
+                              width: 60,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(15),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                        'https://static01.nyt.com/images/2015/12/21/dining/21COOKING_PENNEARRABBIATA/21COOKING_PENNEARRABBIATA-superJumbo.jpg'),
+                                    fit: BoxFit.fill),
+                              ),
+                            ),
+                            Text('Pasta'),
+                          ],
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 20, top: 10),
-                        child: Container(
-                          height: 60,
-                          width: 60,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(15),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://storage.googleapis.com/smstl/202441/1330/mission-taco-join-town-and-country-st-louis-lg.jpg'),
-                                fit: BoxFit.fill),
-                          ),
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 60,
+                              width: 60,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(15),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                        'https://storage.googleapis.com/smstl/202441/1330/mission-taco-join-town-and-country-st-louis-lg.jpg'),
+                                    fit: BoxFit.fill),
+                              ),
+                            ),
+                            Text('Veg Roll '),
+                          ],
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 20, top: 10),
-                        child: Container(
-                          height: 60,
-                          width: 60,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(15),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://i.ytimg.com/vi/I1NbMLk1BnA/maxresdefault.jpg'),
-                                fit: BoxFit.fill),
-                          ),
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 60,
+                              width: 60,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(15),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                        'https://i.ytimg.com/vi/I1NbMLk1BnA/maxresdefault.jpg'),
+                                    fit: BoxFit.fill),
+                              ),
+                            ),
+                            Text('Burger'),
+                          ],
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 20, top: 10),
-                        child: Container(
-                          height: 60,
-                          width: 60,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(15),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://oracle.newpaltz.edu/wp-content/uploads/2019/04/IMG_2113-678x381.jpeg'),
-                                fit: BoxFit.fill),
-                          ),
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 60,
+                              width: 60,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(15),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                        'https://oracle.newpaltz.edu/wp-content/uploads/2019/04/IMG_2113-678x381.jpeg'),
+                                    fit: BoxFit.fill),
+                              ),
+                            ),
+                            Text('Pizza'),
+                          ],
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 20, top: 10),
-                        child: Container(
-                          height: 60,
-                          width: 60,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(15),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://pbs.twimg.com/media/EMeqqLHWwAE8jTX.jpg'),
-                                fit: BoxFit.fill),
-                          ),
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 60,
+                              width: 60,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(15),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                        'https://pbs.twimg.com/media/EMeqqLHWwAE8jTX.jpg'),
+                                    fit: BoxFit.fill),
+                              ),
+                            ),
+                            Text('Maggi'),
+                          ],
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 20, top: 10),
-                        child: Container(
-                          height: 60,
-                          width: 60,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(15),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://www.mima.com.au/wp-content/uploads/2019/12/SW_Broadway_Hero.jpg'),
-                                fit: BoxFit.fill),
-                          ),
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 60,
+                              width: 60,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(15),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                        'https://www.mima.com.au/wp-content/uploads/2019/12/SW_Broadway_Hero.jpg'),
+                                    fit: BoxFit.fill),
+                              ),
+                            ),
+                            Text('Maze'),
+                          ],
                         ),
                       ),
                     ],
